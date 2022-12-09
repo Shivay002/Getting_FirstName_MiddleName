@@ -1,0 +1,15 @@
+class Main {
+  public static void main(String[] args) {
+String name = "Jake John Blake";
+		String ar[] = name.split(" ");
+		System.out.println("First Name : " + ar[0]);
+		System.out.println("Middle Name : " + ar[1]);
+		System.out.println("last Name : " + ar[2]);
+
+//Getting Initials
+		for (int i = 0; i < ar.length; i++) {
+			System.out.println("initials are : " + ar[i].charAt(0));
+			
+		}
+  }
+}
